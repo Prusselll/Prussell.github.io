@@ -1,9 +1,11 @@
 body {
-    background:  yellow;
-    color: yellow;
+    background-image: url("https://lh3.googleusercontent.com/pw/AP1GczMvUtuZorwKfQfQWdYQ4H9ifmQfTxfdwB_1Ek7ilzD8rahT8zhX5NVJIrBT_WNqSUXd8IN475XXDn4LWhYO3kVYjI3bJkL0R-pP0-jmEXyp009c-WarWt-hdBuEMbaFC7Qroycu2vZAhwR8uts2IJVDbPvLEIj8ZR7ynaz46Zkm5Fi-wIOzlkQh9SLylBHnTM0h_tbQA8uuBDmkuhWwJyBpERss08wNPvnjkFjQ-BEZAPCnPpLXPrav_nJ3g9SndUKwxELNvZBi346jGd390EPDfqGYZHxd0usO_57jGA6sTf6BBd8UhJk_Ge2EOkegHv5kEIWcjEbU2NYooqfQmukaUDrelw2ywcU0gLIPmdXhM_ezNLtgc_wHdWpI8QfVTtsWQaA4yP7XUD_0dpuQQ_MpTL7uO5ZOF2WKLCi00dsdXIwaF4ZBogg07nhljci0vbtwjWc6hUsX7ilXrJKlkO38_eh9hNn-VVLShAb0eCSuAyrLIG0ek12c7kxKQ_aB6z4_I9-cVW_RbaxIpF1hluzWoGwQ1_kqU6NpKu4nqvmj0Q4-SDFUN3SOSG4fmgmbnCGbGjh9hjgJNCkM7zQQBQP5BdyG9I0a6ErcH4f2Pq3cRMB5W8xzpS05_Cac2Pr-vM_LXC45ziDq_StqGfBGJG3s-cIYCo28nPogHhUqDpgzme3A3nMosCFa6bazHejntIRcVEu5cVhyiM1_InLhlQjG7eKthli083D3qwEn77cslDpT3ETAjXt3nPWWwgs2qFRBYwGE7VuJzw8BqhT8Ae_FWuKh_zK7Z7CxLGXzj8L4FbZYhVwpcN7CXbkrC517NM5oBvt9aSC5JZmAw5BJG9m3GLKvYEWKuAwpm-z24ROv0fm3RekIG27LdGBN-V_7pAdLvq8KM93b7zAoMAXMsCOT98UnL2iOImwqG9QzW7W5Dk7IB4NdXNh5HvzdtQ=w723-h905-s-no-gm?authuser=1");
+    color: red;
     padding: 30px;
     font-family:fantasy;
+    background-size: contain;
 }
+    
 
 #all-contents {
     max-width: 900px;
@@ -13,7 +15,7 @@ body {
 
 /* navigation menu */
 nav {
-    background:black ;
+    background:rgb(0, 0, 0) ;
     margin: 0 auto;
     margin-bottom: 40px;
     display: flex;
@@ -24,7 +26,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: yellow;
+    color: red;
     flex: 1;
     margin: 0;
 }
@@ -40,12 +42,12 @@ h1 {
 
 a {
     text-decoration: none;
-    color:yellow ;
+    color:red ;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(0, 0, 0);
+    background: black;
     display: flex;
 }
 .sidebar {
@@ -61,10 +63,27 @@ main {
 }
 
 /* portfolio styles */
-#interests {
-    border: 4px silver ridge;
-    padding: 8px;
+.content h1 {
+    color: black;
 }
-h2, h3 {
-    margin: 0px;
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #d7d10e;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eef200;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
 }
