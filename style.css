@@ -3,12 +3,13 @@ body {
     color: red;
     padding: 30px;
     font-family:fantasy;
-    background-size: contain;
+    background-size: cover;
+    background-position:0cqmax;
 }
     
 
 #all-contents {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 
