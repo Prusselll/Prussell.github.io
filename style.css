@@ -73,14 +73,14 @@ main {
 }
 
 #portfolio li {
-    background: #d7d10e;
+    background: red;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-    background: #eef200;
+    background: red;
 }
 
 #portfolio a {
