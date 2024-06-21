@@ -48,6 +48,11 @@ var init = function (window) {
       physikz.updatePosition();
       physikz.updatePosition();
       // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
+      game.checkCirclePosition()
+      game.checkCirclePosition()
+      game.checkCirclePosition()
+      game.checkCirclePosition()
+      game.checkCirclePosition()
       // TODO 9 : Iterate over the array
     }
 
